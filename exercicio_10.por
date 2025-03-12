@@ -11,10 +11,10 @@ programa
 	  
 	  funcao inicio()
 	{
-		real tempo_horas
-		real segundos
-		real horas
-		real minutos
+		inteiro  tempo_horas
+		inteiro  segundos
+		inteiro  horas
+		inteiro  minutos
 
 
 		// sugerir o usuario para digitar em segundos o tempo
@@ -23,6 +23,11 @@ programa
 
 		horas   = (segundos /3600)
 		minutos = (segundos%3600)/60
+		tempo_horas = segundos%60
+
+		escreva (" O valor informado de: " + segundos + " segundos \n")
+		escreva (" é igual a: " + horas + " : " minutos + segundos + " hora(s)")
+		
 		
 		
 		
@@ -36,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 474; 
+ * @POSICAO-CURSOR = 660; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
