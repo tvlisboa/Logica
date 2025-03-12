@@ -1,6 +1,6 @@
 programa
 {
-	/* if
+	/* if
 	= atribuuicao
 	>= maior que
 	<= menor que
@@ -20,15 +20,15 @@ programa
 		leia (senha)
 		//resposta = 1 >=  2
 		//escreva (resposta + "\n")
-		
-
-		
+		//
+		//
 		se(nome == "Thiago" e senha == "1123lisboa")
 		{
 			escreva ("Acesso liberado")
 
 		}senao{
-			escreva ("Senha incorreta")
+			escreva (" Senha incorreta ou usuario incorreto: " + "\n" )
+			escreva (" Digite a sua senha novamente: " + "\n" )
 
 		}
 	}
@@ -38,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 522; 
+ * @POSICAO-CURSOR = 436; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
